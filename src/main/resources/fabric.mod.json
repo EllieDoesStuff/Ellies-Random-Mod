@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "ellieshenanigans",
+	"version": "${version}",
+	"name": "Ellie's Shenanigans!",
+	"description": "goofing around again :3",
+	"authors": [
+		"Ellie"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/ellieshenanigans/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.ellie.ellieshenanigans.EllieMod"
+		],
+		"client": [
+			"net.ellie.ellieshenanigans.EllieModClient"
+		],
+		"fabric-datagen": [
+			"net.ellie.ellieshenanigans.EllieModDataGenerator"
+		]
+	},
+	"mixins": [
+      "ellieshenanigans.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "ellieshenanigans:block/dark_steel_pattern",
+    "side": "ellieshenanigans:block/dark_steel_pattern",
+    "top": "ellieshenanigans:block/dark_steel_pattern"
+  }
+}

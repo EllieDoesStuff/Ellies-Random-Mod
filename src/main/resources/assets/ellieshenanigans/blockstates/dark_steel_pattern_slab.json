@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "ellieshenanigans:block/dark_steel_pattern_slab"
+    },
+    "type=double": {
+      "model": "ellieshenanigans:block/dark_steel_pattern"
+    },
+    "type=top": {
+      "model": "ellieshenanigans:block/dark_steel_pattern_slab_top"
+    }
+  }
+}
